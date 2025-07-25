@@ -8,7 +8,7 @@ import streamlit as st
 import pandas as pd
 import sqlite3
 from datetime import datetime
-from model import load_model
+from src.model import load_model
 
 # Load model
 model_path = os.path.join(os.path.dirname(__file__), '..', 'models', 'final_model.pkl')
