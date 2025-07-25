@@ -2,8 +2,7 @@ import sys
 import os
 
 # Add the parent directory of app.py (which is the project root) to sys.path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '.D:/Users/balans/Desktop/PBI/Customer Support Ticket Prioritization/src')))
-
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
 
 import streamlit as st
 import pandas as pd
@@ -12,7 +11,8 @@ from datetime import datetime
 from model import load_model
 
 # Load model
-model = load_model("D:/Users/balans/Desktop/PBI/Customer Support Ticket Prioritization/models/final_model.pkl")
+model_path = os.path.join(os.path.dirname(__file__), '..', 'models', 'final_model.pkl')
+model = load_model(model_path)
 
 # SQLite setup
 conn = sqlite3.connect('predictions.db')
