@@ -1,0 +1,12 @@
+﻿,timestamp,subject,description,priority,confidence
+0,2025-07-25 16:15:26,Login Issue,User cannot access dashboard after login,High,0.36
+1,2025-07-25 16:15:26,Payment Failure,Transaction failed during checkout,High,0.36
+2,2025-07-25 16:15:26,Account Locked,Multiple failed login attempts led to account lock,High,0.36
+3,2025-07-25 16:15:26,Feature Request,Customer requested a dark mode option,High,0.36
+4,2025-07-25 16:15:26,System Crash,System crashes when generating reports,High,0.37
+5,2025-07-25 16:15:18,Login Issue,User cannot access dashboard after login,High,0.36
+6,2025-07-25 16:15:18,Payment Failure,Transaction failed during checkout,High,0.36
+7,2025-07-25 16:15:18,Account Locked,Multiple failed login attempts led to account lock,High,0.36
+8,2025-07-25 16:15:18,Feature Request,Customer requested a dark mode option,High,0.36
+9,2025-07-25 16:15:18,System Crash,System crashes when generating reports,High,0.37
+10,2025-07-25 16:08:52,Login Failure,The user is unable to log into the system after password reset.,High,0.36

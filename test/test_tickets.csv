@@ -1,0 +1,6 @@
+Subject,Description
+Login Issue,User cannot access dashboard after login
+Payment Failure,Transaction failed during checkout
+Account Locked,Multiple failed login attempts led to account lock
+Feature Request,Customer requested a dark mode option
+System Crash,System crashes when generating reports
