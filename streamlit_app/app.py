@@ -1,3 +1,10 @@
+import sys
+import os
+
+# Add the parent directory of app.py (which is the project root) to sys.path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '.D:/Users/balans/Desktop/PBI/Customer Support Ticket Prioritization/src/model.py')))
+
+
 import streamlit as st
 import pandas as pd
 import sqlite3
