@@ -11,7 +11,7 @@ joblib==1.4.2
 nltk==3.8.1
 
 # Text vectorization
-scipy==1.13.1
+scipy==1.12.0
 
 # Database logging
 sqlalchemy==2.0.30
