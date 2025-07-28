@@ -11,6 +11,7 @@ import pandas as pd
 import sqlite3
 from datetime import datetime
 from src.model import load_model
+from src.preprocessing import preprocess_text
 
 # Load model
 model_path = os.path.join(os.path.dirname(__file__), '..', 'models', 'final_model.pkl')
@@ -35,7 +36,7 @@ priority_map = {0: 'Low', 1: 'Medium', 2: 'High'}
 
 # Predict function
 def predict_priority(subject, description):
-    combined_text = subject + ' ' + description
+    combined_text = preprocess_text(subject, description)
     prediction = model.predict([combined_text])[0]
     confidence = max(model.predict_proba([combined_text])[0])
     priority_label = priority_map[prediction]
